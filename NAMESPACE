@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(leaps, regsubsets)
+importFrom(boot, boot)
+importFrom(mvtnorm, rmvnorm)
+importFrom("graphics", "abline")
+importFrom("stats", "coef", "na.fail", "vcov")

@@ -1,0 +1,25 @@
+2025/08/28:
+- Minor modifications to DESCRIPTION and documentation files to comply with new CRAN policies.
+
+2023/10/10:
+- Minor modifications to DESCRIPTION and documentation files to comply with new CRAN policies.
+- Slightly modified the example in BACprior.lm to shorten computing time
+
+2022/05/02:
+- Minor modifications to the NAMESPACE file to comply with new CRAN policies.
+
+
+2014/11/18:
+- Added two new functions to select the omega value in an
+  attempt to minimize mean squared error: BACprior.CV and BACprior.boot.
+- The documentation was updated.
+
+
+2013/01/22:
+- Corrected a bug in BACprior.lm which caused the full model not to be considered. 
+  This bug did not return an error message, but results were wrong.
+- Corrected a bug in BACprior.lm which occured when only one model received
+  all posterior weight. This bug returned an error message and the function did not return
+  any results when it occured.
+- The results of BACprior.lm incorrectly titled a column as standard deviation (was variance).
+  Results now really return posterior standard deviation. 
